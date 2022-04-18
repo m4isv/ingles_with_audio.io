@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+	 <title>English With Audio</title>
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    	<link rel="stylesheet" href="source/css/styles.css">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+	    <!--navbar-fixed-init-here-->
+  	    <div class="navbar-fixed">
+      	    	<nav class="blue z-depth-5">
+    	    	    <div class="nav-wrapper">
+	            <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large">
+			<i class="material-icons pulse">menu</i>
+		    </a>
+	    	    </div>
+  		</nav>
+            </div>
+
+	    <!--light here-->
+	    <div class="container">
+		    <aside class="center">
+		        <i class="material-icons" id="luz" id="mystyle">brightness_4</i>
+		    </aside>
+	    </div>
+
+	    <!-- end-navbar-fixed here-->
+
+
+    <!--Menu Mobile-->
+    <ul class="sidenav" id="mobile-demo">
+    	<li class="active"><a href="#">1 JackHannaford</a></li>
+	<li><a href="#">2 The Endless Tale</a></li>
+    	<li><a href="#">3 The Beanstalk</a></li>
+    	<li><a href="#">4 The Boy Who Flew Too High</a></li>
+    </ul>
+
+
+   <!--CARD1 -->
+    <div class="container">
+	    <div class="card-panel teal lighten-2 z-depth-5" id="card1">
+
+	    </div>
+    </div>
+    
+    <!--AUDIO 1-->
+    <div class="container">
+      <div class="center">
+        <audio id="myAudio">
+            <source src="source/audio/01.mp3" type="audio/ogg">
+            <source src="source/audio/01.mp3" type="audio/mpeg">
+  	    Your browser does not support the audio element.
+	</audio>
+
+	
+	<!-- BTN -->
+	<button class="btn"  id="play" type="button">
+	    <i class="material-icons">play_arrow</i>
+	</button>
+
+	<button class="btn" id="pause" type="button">
+		<i class="material-icons">pause</i>
+	</button>
+    </div>
+    </div>
+
+
+    <br><br><br><br><br><br>
+    <section class="center">
+	  <p class="blue-text">
+		site em devevolvimento.
+	  </p>
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="source/js/main.js"></script>
+    <script src="source/js/light.js"></script>
+    <script src="source/js/jack.js"></script>
+    <script src="source/js/jack_audio1.js"></script>
+    
+    </body>
+</html>
